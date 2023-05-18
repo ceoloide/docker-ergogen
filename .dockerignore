@@ -1,10 +1,10 @@
 # Node stuff
-node_modules
+node_modules/
 npm-debug.log
 
 # Ergogen
-input
-output
+input/
+output/
 build.sh
 
 # Docker
