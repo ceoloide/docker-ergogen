@@ -3,3 +3,6 @@ output/
 
 # Dependency directories
 node_modules/
+
+# Bakup files
+*.bak
