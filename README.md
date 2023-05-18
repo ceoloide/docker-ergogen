@@ -1,6 +1,10 @@
 # docker-ergogen
 A minimal docker image to run [Ergogen](https://github.com/mrzealot/ergogen)
 
+Prebuilt docker images are available on [Docker Hub under ceoloide/docker-ergogen](https://hub.docker.com/repository/docker/ceoloide/docker-ergogen/general).
+
+The `:latest` tag is kept up to date with the latest stable Ergogen release, currently `4.0.2`. You can also refer to specific versions by referencing it in the tag, e.g. `:4.0.2`.
+
 ## How to use the prebuilt Docker image
 
 If you don't want to build your own local image, you can use the [one hosted on Docker Hub](https://hub.docker.com/layers/ceoloide/docker-ergogen/latest/images/sha256-6de875089c9797ad88c619dcddb984d1d5f6a567d6e685cde66562ae696cd3d5?context=repo).
