@@ -1,0 +1,15 @@
+# Node stuff
+node_modules
+npm-debug.log
+
+# Ergogen
+input
+output
+build.sh
+
+# Docker
+Dockerfile
+
+# Git
+.git
+.gitignore

@@ -1,0 +1,19 @@
+{
+    "name": "docker-ergogen",
+    "version": "4.0.2",
+    "description": "Docker version of Ergogen, an ergonomic keyboard layout generator",
+    "author": "Marco Massarelli <marco.masssarelli@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://ergogen.xyz",
+    "repository": "github:ergogen/ergogen",
+    "bugs": "https://github.com/ergogen/ergogen/issues",
+    "scripts": {
+        "ergogen": "/opt/ergogen/node_modules/ergogen/src/cli.js",
+        "build": "/opt/ergogen/node_modules/ergogen/src/cli.js input/. --clear",
+        "debug": "/opt/ergogen/node_modules/ergogen/src/cli.js input/. --clear --debug"
+    },
+    "dependencies": {
+        "ergogen": "github:ergogen/ergogen",
+        "npm": "^9.6.6"
+    }
+}
