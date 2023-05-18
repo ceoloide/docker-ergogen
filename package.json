@@ -8,9 +8,9 @@
     "repository": "github:ergogen/ergogen",
     "bugs": "https://github.com/ergogen/ergogen/issues",
     "scripts": {
-        "ergogen": "/opt/ergogen/node_modules/ergogen/src/cli.js",
-        "build": "/opt/ergogen/node_modules/ergogen/src/cli.js input/. --clear",
-        "debug": "/opt/ergogen/node_modules/ergogen/src/cli.js input/. --clear --debug"
+        "ergogen": "/usr/local/lib/node_modules/ergogen/src/cli.js",
+        "build": "/usr/local/lib/node_modules/ergogen/src/cli.js input/. --clear",
+        "debug": "/usr/local/lib/node_modules/ergogen/src/cli.js input/. --clear --debug"
     },
     "dependencies": {
         "ergogen": "github:ergogen/ergogen",
