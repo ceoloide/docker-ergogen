@@ -8,4 +8,6 @@ npm install
 if [ -d node_modules ]; then
   docker build . -t ceoloide/docker-ergogen:${ERGOGEN_VERSION}
   docker push ceoloide/docker-ergogen:${ERGOGEN_VERSION}
+  docker tag ceoloide/docker-ergogen:${ERGOGEN_VERSION} ceoloide/docker-ergogen:latest
+  docker push ceoloide/docker-ergogen:latest
 fi
