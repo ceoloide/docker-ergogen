@@ -1,4 +1,4 @@
-ERGOGEN_VERSION=4.0.2
+ERGOGEN_VERSION=4.0.4
 rm -f package.json.bak
 sed -i .bak -E "s/version\"\: \"[^\"]+/version\": \"${ERGOGEN_VERSION}/g" package.json
 sed -i .bak -E "s/github\:ergogen\/ergogen\#v[^\"]+/github:ergogen\/ergogen#v${ERGOGEN_VERSION}/g" package.json
